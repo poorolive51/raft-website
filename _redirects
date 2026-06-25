@@ -1,2 +1,2 @@
 # Cloudflare Pages redirects
-/ /index.html 200
+# No custom redirects needed - Cloudflare Pages serves index.html at / by default
