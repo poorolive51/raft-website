@@ -85,9 +85,9 @@ style: |
 ---
 
 <!-- _class: title-slide -->
-![bg right:45%](images/title_collage.jpg)
+![bg right:55%](images/title_collage_masonry.jpg)
 
-![w:150](images/logo.png)
+![w:150](images/logo_clean.png)
 # RAFT
 ### Rao Family Trust
 
