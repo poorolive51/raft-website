@@ -94,11 +94,13 @@ www.raft.org.in | contact@raft.org.in | linkedin.com/company/rao-family-trust
 
 ## About Us
 
+<div style="font-size: 16px; line-height: 1.5;">
 The Rao Family Trust (RAFT) offers grants to nonprofits with a rigorous, evidence-based approach focused on measurable, sustainable results. 
 
 As a private trust, RAFT channels its resources in a structured, transparent, and purpose-driven manner to ensure that its philanthropic vision continues to inspire meaningful change for generations.
 
 *We are based in Pune, Maharashtra.*
+</div>
 
 <div class="grid-2" style="margin-top: 30px;">
   <div class="info-box">
@@ -196,8 +198,8 @@ Through our grants, we support organisations to respond to community needs and s
   </div>
 </div>
 
-<p style="text-align: center; margin-top: 20px; font-weight: 600; color: var(--color-primary); font-size: 14px;">
-  Geographic Focus: Primarily — Maharashtra, India
+<p style="text-align: center; margin-top: 40px; font-weight: 600; color: var(--color-primary); font-size: 16px;">
+  📍 Geographic Focus: Primarily — Maharashtra, India
 </p>
 
 ---
