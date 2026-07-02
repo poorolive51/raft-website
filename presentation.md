@@ -55,27 +55,27 @@ style: |
   .grid-5 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap: 15px; }
   .grid-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
   
-  .info-box { background: var(--color-bg-light); padding: 12px; border-radius: 8px; border-left: 3px solid var(--color-secondary); }
-  .info-box h3 { font-size: 18px; margin-top: 0; margin-bottom: 5px; }
-  .info-box p { font-size: 13px; color: var(--color-text-muted); margin: 0; }
-  .info-box ul { font-size: 13px; color: var(--color-text-muted); margin: 0; padding-left: 20px; }
+  .info-box { background: var(--color-bg-light); padding: 15px; border-radius: 8px; border-left: 3px solid var(--color-secondary); }
+  .info-box h3 { font-size: 22px; margin-top: 0; margin-bottom: 5px; }
+  .info-box p { font-size: 16px; color: var(--color-text-muted); margin: 0; line-height: 1.4; }
+  .info-box ul { font-size: 16px; color: var(--color-text-muted); margin: 0; padding-left: 20px; line-height: 1.4; }
   
   .team-member { margin-bottom: 15px; }
   .team-member h3 { margin-bottom: 2px; font-size: 20px; }
   .team-role { color: var(--color-secondary); font-weight: 500; font-size: 14px; margin-bottom: 6px; font-style: italic; }
-  .team-desc { font-size: 13px; color: var(--color-text-muted); line-height: 1.4; }
+  .team-desc { font-size: 14px; color: var(--color-text-muted); line-height: 1.4; }
 
   .grantee-header { background: var(--color-bg-light); padding: 12px 15px; border-radius: 8px; margin-bottom: 15px; }
   .grantee-header h3 { margin: 0 0 5px 0; font-size: 22px; }
-  .grantee-meta { font-size: 13px; color: var(--color-primary); font-weight: 500; margin-bottom: 5px; }
-  .grantee-url { font-size: 11px; color: var(--color-text-muted); font-style: italic; margin-top: 2px; }
-  .grantee-body { font-size: 14px; color: var(--color-text-dark); margin-bottom: 15px; line-height: 1.5; max-width: 85%; }
+  .grantee-meta { font-size: 14px; color: var(--color-primary); font-weight: 500; margin-bottom: 5px; }
+  .grantee-url { font-size: 12px; color: var(--color-text-muted); font-style: italic; margin-top: 2px; }
+  .grantee-body { font-size: 16px; color: var(--color-text-dark); margin-bottom: 15px; line-height: 1.5; max-width: 85%; }
   
-  .impact-heading { font-family: 'Outfit', sans-serif; font-size: 16px; font-weight: 600; color: var(--color-primary); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; border-bottom: 2px solid var(--color-secondary); padding-bottom: 5px; display: inline-block; }
+  .impact-heading { font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 600; color: var(--color-primary); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; border-bottom: 2px solid var(--color-secondary); padding-bottom: 5px; display: inline-block; }
 
   .impact-box { background: var(--color-primary); color: white; padding: 15px; border-radius: 8px; text-align: center; }
-  .impact-box h4 { color: var(--color-secondary); font-size: 24px; margin: 0 0 5px 0; }
-  .impact-box p { color: white; font-size: 12px; margin: 0; line-height: 1.2; }
+  .impact-box h4 { color: var(--color-secondary); font-size: 26px; margin: 0 0 5px 0; }
+  .impact-box p { color: white; font-size: 14px; margin: 0; line-height: 1.3; }
   
   .quote { font-size: 32px; font-family: 'Outfit', sans-serif; color: var(--color-primary); line-height: 1.4; text-align: center; padding: 0 40px; }
 ---
