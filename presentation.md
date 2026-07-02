@@ -153,50 +153,50 @@ Through our grants, we support organisations to respond to community needs and s
 ## Our Pillars of Giving
 
 <div class="grid-5" style="margin-top: 20px;">
-  <div class="info-box" style="padding: 15px;">
-    <h3>Education</h3>
-    <ul>
+  <div class="info-box" style="padding: 12px;">
+    <h3 style="font-size: 16px; margin-bottom: 6px;">Education</h3>
+    <ul style="font-size: 11px; line-height: 1.5;">
       <li>Enable professional education and quality learning for girls ensuring economic independence</li>
       <li>Transform girls into future leaders and changemakers</li>
       <li>Improve educational opportunities in remote communities</li>
     </ul>
   </div>
-  <div class="info-box" style="padding: 15px;">
-    <h3>Biodiversity & Conservation</h3>
-    <ul>
+  <div class="info-box" style="padding: 12px;">
+    <h3 style="font-size: 16px; margin-bottom: 6px;">Biodiversity & Conservation</h3>
+    <ul style="font-size: 11px; line-height: 1.5;">
       <li>Protect biodiversity, wildlife habitats, and critical ecosystems</li>
       <li>Support community-led conservation through science-based solutions</li>
-      <li>Inspire environmental stewardship for a sustainable future.</li>
+      <li>Inspire environmental stewardship for a sustainable future</li>
     </ul>
   </div>
-  <div class="info-box" style="padding: 15px;">
-    <h3>Livelihoods</h3>
-    <ul>
-      <li>Drive women’s economic empowerment</li>
-      <li>Build market-relevant skills leading to meaningful careers and higher incomes and entrepreneurship</li>
-      <li>Strengthen women’s confidence, leadership in society</li>
+  <div class="info-box" style="padding: 12px;">
+    <h3 style="font-size: 16px; margin-bottom: 6px;">Livelihoods</h3>
+    <ul style="font-size: 11px; line-height: 1.5;">
+      <li>Drive women's economic empowerment</li>
+      <li>Build market-relevant skills leading to meaningful careers and higher incomes</li>
+      <li>Strengthen women's confidence, leadership in society</li>
     </ul>
   </div>
-  <div class="info-box" style="padding: 15px;">
-    <h3>Tech for Good</h3>
-    <ul>
+  <div class="info-box" style="padding: 12px;">
+    <h3 style="font-size: 16px; margin-bottom: 6px;">Tech for Good</h3>
+    <ul style="font-size: 11px; line-height: 1.5;">
       <li>Apply technology and innovation to address pressing social challenges</li>
       <li>Accelerate the diffusion of technology to underserved communities</li>
       <li>Support scalable, sustainable solutions that expand access</li>
     </ul>
   </div>
-  <div class="info-box" style="padding: 15px;">
-    <h3>Disability Inclusion</h3>
-    <ul>
-      <li>Expand access to education, employment, and services.</li>
-      <li>Enable skills, livelihoods, and independence.</li>
+  <div class="info-box" style="padding: 12px;">
+    <h3 style="font-size: 16px; margin-bottom: 6px;">Disability Inclusion</h3>
+    <ul style="font-size: 11px; line-height: 1.5;">
+      <li>Expand access to education, employment, and services</li>
+      <li>Enable skills, livelihoods, and independence</li>
       <li>Promote dignity, inclusion, and participation</li>
     </ul>
   </div>
 </div>
 
-<p style="text-align: center; margin-top: 20px; font-weight: 600; color: var(--color-primary); font-size: 16px;">
-  Geographic Focus: Primarily - Maharashtra, India
+<p style="text-align: center; margin-top: 20px; font-weight: 600; color: var(--color-primary); font-size: 14px;">
+  Geographic Focus: Primarily — Maharashtra, India
 </p>
 
 ---
@@ -317,7 +317,7 @@ Catapults to Cameras — a critically acclaimed documentary by wildlife filmmake
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45%](images/home_banner_girls.jpg)
+![bg right:45%](images/divider_livelihoods.jpg)
 
 <p>Our Current Projects in</p>
 
@@ -368,17 +368,17 @@ The Shashwat Vikas Kendra will serve as a localised hub addressing these challen
 
 <div class="impact-heading">Expected Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
-  <div class="impact-box"><h4>↗</h4><p>Reduced migration; alternate livelihoods</p></div>
-  <div class="impact-box"><h4>🌿</h4><p>Legal protection of bio-resources & traditional knowledge</p></div>
-  <div class="impact-box"><h4>💧</h4><p>Improved public health and groundwater levels</p></div>
-  <div class="impact-box"><h4>📊</h4><p>Decentralized, data-driven local governance</p></div>
-  <div class="impact-box"><h4>👩</h4><p>Women shift from passive beneficiaries to active participants</p></div>
+  <div class="impact-box"><h4>—</h4><p>Reduced migration; alternate livelihoods</p></div>
+  <div class="impact-box"><h4>—</h4><p>Legal protection of bio-resources & traditional knowledge</p></div>
+  <div class="impact-box"><h4>—</h4><p>Improved public health and groundwater levels</p></div>
+  <div class="impact-box"><h4>—</h4><p>Decentralized, data-driven local governance</p></div>
+  <div class="impact-box"><h4>—</h4><p>Women shift from passive beneficiaries to active participants</p></div>
 </div>
 
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45%](images/home_banner_venture.jpg)
+![bg right:45%](images/divider_technology.jpg)
 
 <p>Our Current Projects in</p>
 
