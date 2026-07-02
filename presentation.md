@@ -57,8 +57,8 @@ style: |
   
   .info-box { background: var(--color-bg-light); padding: 15px; border-radius: 8px; border-left: 3px solid var(--color-secondary); }
   .info-box h3 { font-size: 22px; margin-top: 0; margin-bottom: 5px; }
-  .info-box p { font-size: 16px; color: var(--color-text-muted); margin: 0; line-height: 1.4; }
-  .info-box ul { font-size: 16px; color: var(--color-text-muted); margin: 0; padding-left: 20px; line-height: 1.4; }
+  .info-box p { font-size: 16px; color: var(--color-text-dark); margin: 0; line-height: 1.5; }
+  .info-box ul { font-size: 16px; color: var(--color-text-dark); margin: 0; padding-left: 20px; line-height: 1.5; }
   
   .team-member { margin-bottom: 15px; }
   .team-member h3 { margin-bottom: 2px; font-size: 20px; }
