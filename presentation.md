@@ -53,6 +53,7 @@ style: |
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
   .grid-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 15px; }
   .grid-5 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap: 15px; }
+  .grid-6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
   
   .info-box { background: var(--color-bg-light); padding: 12px; border-radius: 8px; border-left: 3px solid var(--color-secondary); }
   .info-box h3 { font-size: 18px; margin-top: 0; margin-bottom: 5px; }
@@ -408,6 +409,61 @@ The goal is to screen and treat preventable causes of blindness — cataract, un
   <div class="impact-box"><h4>250</h4><p>Expected to require surgery for cataract & glaucoma</p></div>
   <div class="impact-box"><h4>1000</h4><p>Expected to require spectacles for refractive correction</p></div>
   <div class="impact-box"><h4>DR</h4><p>Screening to flag need for advanced care before permanent vision loss</p></div>
+</div>
+
+---
+
+## CENTER OF EXCELLENCE FOR CLEAN ENERGY & GREEN HYDROGEN :: VENTURE CENTER
+
+<div class="grantee-header">
+  <div class="grantee-meta">Pune, Maharashtra | Incubated startups & ecosystem | 2025 – 2026</div>
+  <div class="grantee-url">venturecenter.co.in</div>
+</div>
+
+<div class="grantee-body">
+India's commitments to COP26 and UNFCCC include reducing GDP emissions intensity by 45% and achieving 50% non-fossil fuel energy capacity by 2030. To meet these goals, initiatives in Clean Energy (CE) and Green Hydrogen (GH2) are crucial for energy independence, reducing reliance on imports, and creating socio-economic benefits.
+
+The Center for Clean Energy (CoE) and Green Hydrogen will focus on:
+• Energy generation and new fuels: solar, wind, biomass and green hydrogen
+• Energy storage: Batteries, supercapacitors and advanced technologies.
+• End-use sectors: Mobility, industrial power and urban energy needs.
+
+It will offer services and training programs to startups and stakeholders in the ecosystem. The project will support start-ups developing clean energy, sustainable mobility, environmental technologies, carbon management and circular economy solutions. The CoE is a significant step toward building a self-sufficient and innovative clean energy ecosystem in India.
+</div>
+
+<div class="impact-heading">Expected Impact</div>
+<div class="grid-6" style="margin-top: 10px;">
+  <div class="impact-box"><h4>60+</h4><p>New startups to be incubated</p></div>
+  <div class="impact-box"><h4>1000+</h4><p>New jobs will be created by incubated startups</p></div>
+  <div class="impact-box"><h4>50+</h4><p>Events, workshops and hackathons to be organised</p></div>
+  <div class="impact-box"><h4>60+</h4><p>Mentors and domain experts to be engaged</p></div>
+  <div class="impact-box"><h4>20+</h4><p>New strategic partnerships to be established</p></div>
+  <div class="impact-box"><h4>15+</h4><p>Startups to raise external funding</p></div>
+</div>
+
+---
+
+## SOLAR PANEL INSTALLATIONS :: VENTURE CENTER
+
+<div class="grantee-header">
+  <div class="grantee-meta">Pune, Maharashtra | Incubated startups | 2025 – 2026</div>
+  <div class="grantee-url">venturecenter.co.in</div>
+</div>
+
+<div class="grantee-body">
+Venture Centre has a goal of 100% renewal energy by 2030. Currently, ~20% is attained through renewable energy. To increase it to 50%, they need to install solar photovoltaic systems covering roughly 10,000 sq.ft of land space and producing 150 KWp of power.
+
+Installing this solar panel system will replace 20-30% grid power usage, replacing conventional fossil fuels with renewable energy.
+
+The annual savings generated through reduced electricity expenditure will be reinvested towards strengthening incubation programmes, startup support activities, and innovation infrastructure, thereby enhancing the long-term sustainability of the incubator.
+</div>
+
+<div class="impact-heading">Expected Impact</div>
+<div class="grid-4" style="margin-top: 10px;">
+  <div class="impact-box"><h4>45 kWp</h4><p>Solar capacity to be installed</p></div>
+  <div class="impact-box"><h4>64,800 units</h4><p>Power to be generated annually</p></div>
+  <div class="impact-box"><h4>8.10 Lakhs</h4><p>Estimated annual savings</p></div>
+  <div class="impact-box"><h4>180 units/day</h4><p>Average power to be generated</p></div>
 </div>
 
 ---
