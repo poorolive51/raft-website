@@ -68,7 +68,7 @@ style: |
   .grantee-header h3 { margin: 0 0 5px 0; font-size: 22px; }
   .grantee-meta { font-size: 13px; color: var(--color-primary); font-weight: 500; margin-bottom: 5px; }
   .grantee-url { font-size: 11px; color: var(--color-text-muted); font-style: italic; margin-top: 2px; }
-  .grantee-body { font-size: 14px; color: var(--color-text-dark); margin-bottom: 15px; line-height: 1.4; }
+  .grantee-body { font-size: 14px; color: var(--color-text-dark); margin-bottom: 15px; line-height: 1.5; max-width: 85%; }
   
   .impact-heading { font-family: 'Outfit', sans-serif; font-size: 16px; font-weight: 600; color: var(--color-primary); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; border-bottom: 2px solid var(--color-secondary); padding-bottom: 5px; display: inline-block; }
 
@@ -251,8 +251,10 @@ The Hummingbird School, under Ayang Trust, operates at the intersection of educa
 </div>
 
 <div class="impact-heading">Impact</div>
-<div class="info-box">
-  <p style="color: var(--color-text-dark); font-size: 18px; font-weight: 500;">37 students receive continued residential and educational support</p>
+<div class="grid-3" style="margin-top: 10px;">
+  <div class="impact-box"><h4>37</h4><p>Students receive continued residential and educational support</p></div>
+  <div class="impact-box"><h4>1st</h4><p>Generation learners from Mising tribal community</p></div>
+  <div class="impact-box"><h4>4+</h4><p>Years of sustained support since 2025</p></div>
 </div>
 
 ---
@@ -305,11 +307,11 @@ Catapults to Cameras — a critically acclaimed documentary by wildlife filmmake
 
 <div class="impact-heading">Expected Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Mobile Field Library</h3><p style="font-size:12px;">To travel across 12 villages with wildlife films, binoculars & more</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">12 children</h3><p style="font-size:12px;">To receive training in photography and wildlife observation</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Kids’ Nature Clubs</h3><p style="font-size:12px;">Village-level conservation clubs to be formed</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Nature Learning</h3><p style="font-size:12px;">Workshops and screening to be conducted in hunting villages</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">District-Level Exhibition</h3><p style="font-size:12px;">To be held for public recognition from local leaders & officials for the 12 children</p></div>
+  <div class="impact-box"><h4>1</h4><p>Mobile Field Library across 12 villages</p></div>
+  <div class="impact-box"><h4>12</h4><p>Children trained in photography & wildlife observation</p></div>
+  <div class="impact-box"><h4>Kids'</h4><p>Nature Clubs formed in villages</p></div>
+  <div class="impact-box"><h4>12+</h4><p>Workshops & screenings in hunting villages</p></div>
+  <div class="impact-box"><h4>1</h4><p>District-level exhibition for public recognition</p></div>
 </div>
 
 ---
@@ -366,11 +368,11 @@ The Shashwat Vikas Kendra will serve as a localised hub addressing these challen
 
 <div class="impact-heading">Expected Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Livelihoods</h3><p style="font-size:12px;">Reduced migration; alternate livelihoods</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Environment</h3><p style="font-size:12px;">Legal protection of bio-resources and traditional knowledge</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Waste/Water</h3><p style="font-size:12px;">Improved public health and groundwater levels.</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Governance</h3><p style="font-size:12px;">Decentralized, data-driven local governance.</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Women Empowerment</h3><p style="font-size:12px;">Shift from passive beneficiaries to active participation.</p></div>
+  <div class="impact-box"><h4>↗</h4><p>Reduced migration; alternate livelihoods</p></div>
+  <div class="impact-box"><h4>🌿</h4><p>Legal protection of bio-resources & traditional knowledge</p></div>
+  <div class="impact-box"><h4>💧</h4><p>Improved public health and groundwater levels</p></div>
+  <div class="impact-box"><h4>📊</h4><p>Decentralized, data-driven local governance</p></div>
+  <div class="impact-box"><h4>👩</h4><p>Women shift from passive beneficiaries to active participants</p></div>
 </div>
 
 ---
@@ -401,11 +403,11 @@ The goal is to screen and treat preventable causes of blindness — cataract, un
 
 <div class="impact-heading">Expected Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:16px;">45,000+</h3><p style="font-size:12px;">Residents to receive free eye screening</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:16px;">25%</h3><p style="font-size:12px;">Of screenings expected to require evaluation for vision disorders</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:16px;">250</h3><p style="font-size:12px;">Expected to require surgery for cataract and glaucoma</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:16px;">1000</h3><p style="font-size:12px;">Individuals are expected to require spectacles for refractive correction</p></div>
-  <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Diabetic Retinopathy</h3><p style="font-size:12px;">Screening will flag need for advanced care before vision loss becomes permanent</p></div>
+  <div class="impact-box"><h4>45,000+</h4><p>Residents to receive free eye screening</p></div>
+  <div class="impact-box"><h4>25%</h4><p>Expected to require evaluation for vision disorders</p></div>
+  <div class="impact-box"><h4>250</h4><p>Expected to require surgery for cataract & glaucoma</p></div>
+  <div class="impact-box"><h4>1000</h4><p>Expected to require spectacles for refractive correction</p></div>
+  <div class="impact-box"><h4>DR</h4><p>Screening to flag need for advanced care before permanent vision loss</p></div>
 </div>
 
 ---
