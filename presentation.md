@@ -64,10 +64,10 @@ style: |
   .info-box-large h3 { font-size: 26px; margin-top: 0; margin-bottom: 8px; }
   .info-box-large p { font-size: 20px; color: var(--color-text-dark); margin: 0; line-height: 1.5; }
   
-  .team-member { margin-bottom: 15px; }
-  .team-member h3 { margin-bottom: 2px; font-size: 20px; }
+  .team-member { background: var(--color-bg-light); padding: 15px; border-radius: 8px; border-left: 3px solid var(--color-secondary); margin-bottom: 15px; }
+  .team-member h3 { font-size: 22px; margin-top: 0; margin-bottom: 2px; }
   .team-role { color: var(--color-secondary); font-weight: 500; font-size: 14px; margin-bottom: 6px; font-style: italic; }
-  .team-desc { font-size: 14px; color: var(--color-text-muted); line-height: 1.4; }
+  .team-desc { font-size: 14px; color: var(--color-text-dark); line-height: 1.5; }
 
   .grantee-header { background: var(--color-bg-light); padding: 12px 15px; border-radius: 8px; margin-bottom: 15px; }
   .grantee-header h3 { margin: 0 0 5px 0; font-size: 22px; }
