@@ -54,20 +54,20 @@ style: |
   .grid-4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 15px; }
   .grid-5 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap: 15px; }
   
-  .info-box { background: var(--color-bg-light); padding: 20px; border-radius: 8px; border-left: 3px solid var(--color-secondary); }
-  .info-box h3 { font-size: 20px; margin-top: 0; }
-  .info-box p { font-size: 15px; color: var(--color-text-muted); margin: 0; }
-  .info-box ul { font-size: 15px; color: var(--color-text-muted); margin: 0; padding-left: 20px; }
+  .info-box { background: var(--color-bg-light); padding: 12px; border-radius: 8px; border-left: 3px solid var(--color-secondary); }
+  .info-box h3 { font-size: 18px; margin-top: 0; margin-bottom: 5px; }
+  .info-box p { font-size: 13px; color: var(--color-text-muted); margin: 0; }
+  .info-box ul { font-size: 13px; color: var(--color-text-muted); margin: 0; padding-left: 20px; }
   
-  .team-member { margin-bottom: 20px; }
-  .team-member h3 { margin-bottom: 2px; font-size: 22px; }
-  .team-role { color: var(--color-secondary); font-weight: 500; font-size: 16px; margin-bottom: 8px; font-style: italic; }
-  .team-desc { font-size: 16px; color: var(--color-text-muted); line-height: 1.4; }
+  .team-member { margin-bottom: 15px; }
+  .team-member h3 { margin-bottom: 2px; font-size: 20px; }
+  .team-role { color: var(--color-secondary); font-weight: 500; font-size: 14px; margin-bottom: 6px; font-style: italic; }
+  .team-desc { font-size: 13px; color: var(--color-text-muted); line-height: 1.4; }
 
-  .grantee-header { background: var(--color-bg-light); padding: 15px 20px; border-radius: 8px; margin-bottom: 20px; }
-  .grantee-header h3 { margin: 0 0 5px 0; font-size: 26px; }
-  .grantee-meta { font-size: 14px; color: var(--color-primary); font-weight: 500; margin-bottom: 5px; }
-  .grantee-body { font-size: 18px; color: var(--color-text-dark); margin-bottom: 20px; }
+  .grantee-header { background: var(--color-bg-light); padding: 12px 15px; border-radius: 8px; margin-bottom: 15px; }
+  .grantee-header h3 { margin: 0 0 5px 0; font-size: 22px; }
+  .grantee-meta { font-size: 13px; color: var(--color-primary); font-weight: 500; margin-bottom: 5px; }
+  .grantee-body { font-size: 14px; color: var(--color-text-dark); margin-bottom: 15px; line-height: 1.4; }
   
   .impact-box { background: var(--color-primary); color: white; padding: 15px; border-radius: 8px; text-align: center; }
   .impact-box h4 { color: var(--color-secondary); font-size: 24px; margin: 0 0 5px 0; }
@@ -199,7 +199,7 @@ Through our grants, we support organisations to respond to community needs and s
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45%](images/grantee_aatmaja.jpg)
+![bg right:45% fit](images/grantee_aatmaja.jpg)
 
 <p>Our Current Projects in</p>
 # EDUCATION
@@ -213,7 +213,7 @@ Through our grants, we support organisations to respond to community needs and s
   <div style="font-size: 14px;">aatmaja.org</div>
 </div>
 
-<div class="grantee-body" style="font-size: 16px;">
+<div class="grantee-body">
 Through 4 strategic programs, Aatmaja Foundation builds confidence, life skills and professional capabilities to create empowered and self-reliant women.
 </div>
 
@@ -254,7 +254,7 @@ The Hummingbird School, under Ayang Trust, operates at the intersection of educa
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45%](images/grantee_sahyadri.jpg)
+![bg right:45% fit](images/grantee_sahyadri.jpg)
 
 <p>Our Current Projects in</p>
 # BIODIVERSITY &<br> CONSERVATION
@@ -290,7 +290,7 @@ The Western Ghats is home to three iconic Hornbill species. These birds are crit
   <div style="font-size: 14px;">healearth.in</div>
 </div>
 
-<div class="grantee-body" style="font-size: 16px;">
+<div class="grantee-body">
 In Southern West Bengal, over 40 mass hunting festivals are documented annually across seven districts — drawing up to 20,000 armed participants and killing thousands of wild animals in a single day. These are not subsistence hunts. They are organised bloodsport.
 
 In these villages, boys are handed catapults as young as age three. By adolescence, participation in mass hunts is a rite of masculinity and belonging. The solution starts with children. When boys in these communities are given cameras, mentorship, and recognition, their relationship with nature shifts fundamentally.
@@ -310,7 +310,7 @@ Catapults to Cameras — a critically acclaimed documentary by wildlife filmmake
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45%](images/home_banner_girls.jpg)
+![bg right:45% fit](images/home_banner_girls.jpg)
 
 <p>Our Current Projects in</p>
 # LIVELIHOODS
@@ -324,7 +324,7 @@ Catapults to Cameras — a critically acclaimed documentary by wildlife filmmake
   <div style="font-size: 14px;">manndeshifoundation.org</div>
 </div>
 
-<div class="grantee-body" style="font-size: 16px;">
+<div class="grantee-body">
 Farmers have largely relied on traditional practices, even though agriculture is a highly technical and scientific field. By focusing on soil, we intervene at the very beginning of the crop cycle, where the foundation of productivity is set.
 
 The project aims to strengthen the capacity and resilience of 1,500 farmers by improving soil health knowledge, introducing climate-smart agricultural practices, and increasing access to emerging agricultural technologies. Through soil testing services, advanced courses on horticulture farming and knowledge sessions on agri-tech, artificial intelligence in agriculture, climate literacy, and scientific farming methods, the project will equip farmers with the tools and information needed to make data-driven decisions.
@@ -348,7 +348,7 @@ The project aims to strengthen the capacity and resilience of 1,500 farmers by i
   <div style="font-size: 14px;">gipe.ac.in</div>
 </div>
 
-<div class="grantee-body" style="font-size: 16px;">
+<div class="grantee-body">
 Mahad Taluka in Raigad district faces four compounding challenges:
 1. Socio-Economic Vulnerability: Small farmers and landless labourers remain largely excluded from the formal economy
 2. Ecological Degradation: Biodiversity loss and erosion of traditional ecological knowledge
@@ -370,7 +370,7 @@ The Shashwat Vikas Kendra will serve as a localised hub addressing these challen
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45%](images/home_banner_venture.jpg)
+![bg right:45% fit](images/home_banner_venture.jpg)
 
 <p>Our Current Projects in</p>
 # TECHNOLOGY
@@ -384,7 +384,7 @@ The Shashwat Vikas Kendra will serve as a localised hub addressing these challen
   <div style="font-size: 14px;">ssei.care/</div>
 </div>
 
-<div class="grantee-body" style="font-size: 16px;">
+<div class="grantee-body">
 Maharashtra's rate of blindness and visual impairment exceeds the national average. In Mumbai's M/E ward, one of the city's most densely populated slums, nearly 2% of residents are blind and 13% live with visual impairment, yet 66% of that blindness and 84% of that impairment is treatable.
 
 The program takes a pocket-based approach, bringing awareness, community engagement and screening directly into neighborhoods, with at least six months of follow-up to build lasting eye-health habits. ’Sakhis’, women from the community are trained on two cutting-edge portable tools: Remidio's split lamp for a thorough anterior eye exam, and a handheld fundus camera that delivers high-quality retinal screening in under a minute.
