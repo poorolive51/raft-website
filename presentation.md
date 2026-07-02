@@ -198,7 +198,8 @@ Through our grants, we support organisations to respond to community needs and s
   </div>
 </div>
 
-<p style="text-align: center; margin-top: 80px; font-weight: 600; color: var(--color-primary); font-size: 16px;">
+<br><br>
+<p style="text-align: center; font-weight: 600; color: var(--color-primary); font-size: 16px;">
   Geographic Focus: Primarily — Maharashtra, India
 </p>
 
