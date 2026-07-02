@@ -154,41 +154,41 @@ Through our grants, we support organisations to respond to community needs and s
 ## Our Pillars of Giving
 
 <div class="grid-5" style="margin-top: 20px;">
-  <div class="info-box" style="padding: 12px;">
-    <h3 style="font-size: 16px; margin-bottom: 6px;">Education</h3>
-    <ul style="font-size: 11px; line-height: 1.5;">
+  <div class="info-box">
+    <h3>Education</h3>
+    <ul>
       <li>Enable professional education and quality learning for girls ensuring economic independence</li>
       <li>Transform girls into future leaders and changemakers</li>
       <li>Improve educational opportunities in remote communities</li>
     </ul>
   </div>
-  <div class="info-box" style="padding: 12px;">
-    <h3 style="font-size: 16px; margin-bottom: 6px;">Biodiversity & Conservation</h3>
-    <ul style="font-size: 11px; line-height: 1.5;">
+  <div class="info-box">
+    <h3>Biodiversity & Conservation</h3>
+    <ul>
       <li>Protect biodiversity, wildlife habitats, and critical ecosystems</li>
       <li>Support community-led conservation through science-based solutions</li>
       <li>Inspire environmental stewardship for a sustainable future</li>
     </ul>
   </div>
-  <div class="info-box" style="padding: 12px;">
-    <h3 style="font-size: 16px; margin-bottom: 6px;">Livelihoods</h3>
-    <ul style="font-size: 11px; line-height: 1.5;">
+  <div class="info-box">
+    <h3>Livelihoods</h3>
+    <ul>
       <li>Drive women's economic empowerment</li>
       <li>Build market-relevant skills leading to meaningful careers and higher incomes</li>
       <li>Strengthen women's confidence, leadership in society</li>
     </ul>
   </div>
-  <div class="info-box" style="padding: 12px;">
-    <h3 style="font-size: 16px; margin-bottom: 6px;">Tech for Good</h3>
-    <ul style="font-size: 11px; line-height: 1.5;">
+  <div class="info-box">
+    <h3>Tech for Good</h3>
+    <ul>
       <li>Apply technology and innovation to address pressing social challenges</li>
       <li>Accelerate the diffusion of technology to underserved communities</li>
       <li>Support scalable, sustainable solutions that expand access</li>
     </ul>
   </div>
-  <div class="info-box" style="padding: 12px;">
-    <h3 style="font-size: 16px; margin-bottom: 6px;">Disability Inclusion</h3>
-    <ul style="font-size: 11px; line-height: 1.5;">
+  <div class="info-box">
+    <h3>Disability Inclusion</h3>
+    <ul>
       <li>Expand access to education, employment, and services</li>
       <li>Enable skills, livelihoods, and independence</li>
       <li>Promote dignity, inclusion, and participation</li>
