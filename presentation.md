@@ -30,7 +30,7 @@ style: |
   }
   
   h1 { font-size: 56px; font-weight: 700; margin-bottom: 0.2em; }
-  h2 { font-size: 36px; font-weight: 600; margin-bottom: 1em; position: relative; }
+  h2 { font-size: 28px; font-weight: 600; margin-bottom: 0.8em; position: relative; }
   h2::after { content: ''; position: absolute; bottom: -10px; left: 0; width: 60px; height: 4px; background: var(--color-secondary); border-radius: 2px; }
   h3 { font-size: 24px; margin-bottom: 0.5em; }
   
@@ -67,11 +67,14 @@ style: |
   .grantee-header { background: var(--color-bg-light); padding: 12px 15px; border-radius: 8px; margin-bottom: 15px; }
   .grantee-header h3 { margin: 0 0 5px 0; font-size: 22px; }
   .grantee-meta { font-size: 13px; color: var(--color-primary); font-weight: 500; margin-bottom: 5px; }
+  .grantee-url { font-size: 11px; color: var(--color-text-muted); font-style: italic; margin-top: 2px; }
   .grantee-body { font-size: 14px; color: var(--color-text-dark); margin-bottom: 15px; line-height: 1.4; }
   
+  .impact-heading { font-family: 'Outfit', sans-serif; font-size: 16px; font-weight: 600; color: var(--color-primary); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 10px; border-bottom: 2px solid var(--color-secondary); padding-bottom: 5px; display: inline-block; }
+
   .impact-box { background: var(--color-primary); color: white; padding: 15px; border-radius: 8px; text-align: center; }
   .impact-box h4 { color: var(--color-secondary); font-size: 24px; margin: 0 0 5px 0; }
-  .impact-box p { color: white; font-size: 14px; margin: 0; line-height: 1.2; }
+  .impact-box p { color: white; font-size: 12px; margin: 0; line-height: 1.2; }
   
   .quote { font-size: 32px; font-family: 'Outfit', sans-serif; color: var(--color-primary); line-height: 1.4; text-align: center; padding: 0 40px; }
 ---
@@ -211,7 +214,7 @@ Through our grants, we support organisations to respond to community needs and s
 
 <div class="grantee-header">
   <div class="grantee-meta">Pune | Girls from socioeconomically disadvantaged backgrounds | Grant: 2015 – Ongoing</div>
-  <div style="font-size: 14px;">aatmaja.org</div>
+  <div class="grantee-url">aatmaja.org</div>
 </div>
 
 <div class="grantee-body">
@@ -225,7 +228,7 @@ Through 4 strategic programs, Aatmaja Foundation builds confidence, life skills 
   <div class="info-box" style="padding: 15px;"><h3 style="font-size:16px;">Multi Skill Foundation Course (MSFC)</h3><p style="font-size:13px;">Practical vocational training across engineering, electrical, plumbing & agriculture — building technical skills & career readiness.</p></div>
 </div>
 
-**IMPACT SNAPSHOT**
+<div class="impact-heading">Impact Snapshot</div>
 <div class="grid-5">
   <div class="impact-box"><h4>500+</h4><p>Girls supported</p></div>
   <div class="impact-box"><h4>100+</h4><p>From rural Maharashtra</p></div>
@@ -240,14 +243,14 @@ Through 4 strategic programs, Aatmaja Foundation builds confidence, life skills 
 
 <div class="grantee-header">
   <div class="grantee-meta">Majuli, Assam | Children from Mising Tribe, Assam | Grant: 2025 – 2029</div>
-  <div style="font-size: 14px;">thehummingbirdschool.in</div>
+  <div class="grantee-url">thehummingbirdschool.in</div>
 </div>
 
 <div class="grantee-body">
 The Hummingbird School, under Ayang Trust, operates at the intersection of education and resilience in the flood-affected communities of Majuli, which continue to grapple with poor connectivity, fragile infrastructure, and deep-rooted socio-economic challenges. The Hummingbird School has been committed to ensuring access to quality education for these children. The pedagogy and the curriculum of the school deviate from the conventional learning methods, emphasizing experiential learning, inquiry-driven and context-relevant learning. This has allowed the children to connect their education with their lived realities while developing their curiosity, creativity and critical thinking.
 </div>
 
-**IMPACT**
+<div class="impact-heading">Impact</div>
 <div class="info-box">
   <p style="color: var(--color-text-dark); font-size: 18px; font-weight: 500;">37 students receive continued residential and educational support</p>
 </div>
@@ -267,14 +270,14 @@ The Hummingbird School, under Ayang Trust, operates at the intersection of educa
 
 <div class="grantee-header">
   <div class="grantee-meta">Ratnagiri | Malabar Pied Hornbill, Great Hornbill, Malabar Grey Hornbill | Grant: 2025 – 2028</div>
-  <div style="font-size: 14px;">sahyadrisankalpsociety.org</div>
+  <div class="grantee-url">sahyadrisankalpsociety.org</div>
 </div>
 
 <div class="grantee-body">
 The Western Ghats is home to three iconic Hornbill species. These birds are critical seed dispersers, shaping forest regeneration and structure. However, their survival is threatened by loss of nesting and fruiting trees, forest degradation and fragmentation and lack of public awareness. The project focuses on a landscape-level conservation approach emphasizing nest protection, habitat restoration and community involvement.
 </div>
 
-**IMPACT**
+<div class="impact-heading">Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
   <div class="impact-box"><h4>102</h4><p>Nest sites identified</p></div>
   <div class="impact-box"><h4>61</h4><p>Active nests documented</p></div>
@@ -289,7 +292,7 @@ The Western Ghats is home to three iconic Hornbill species. These birds are crit
 
 <div class="grantee-header">
   <div class="grantee-meta">Jhargram, West Bengal | Boys from Hunting Communities & Wildlife | 2026 – 2027</div>
-  <div style="font-size: 14px;">healearth.in</div>
+  <div class="grantee-url">healearth.in</div>
 </div>
 
 <div class="grantee-body">
@@ -300,7 +303,7 @@ In these villages, boys are handed catapults as young as age three. By adolescen
 Catapults to Cameras — a critically acclaimed documentary by wildlife filmmaker Ashwika Kapur and HEAL's field team — followed five adolescent boys who voluntarily gave up their catapults and became wildlife enthusiasts and conservation ambassadors. The film earned international recognition, turning a grassroots experiment into a global conversation. This project scales that model.
 </div>
 
-**EXPECTED IMPACT**
+<div class="impact-heading">Expected Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
   <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Mobile Field Library</h3><p style="font-size:12px;">To travel across 12 villages with wildlife films, binoculars & more</p></div>
   <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">12 children</h3><p style="font-size:12px;">To receive training in photography and wildlife observation</p></div>
@@ -324,7 +327,7 @@ Catapults to Cameras — a critically acclaimed documentary by wildlife filmmake
 
 <div class="grantee-header">
   <div class="grantee-meta">Satara, Sangli, Solapur, Pune district, Maharashtra | Women farmers | 2026 – 2027</div>
-  <div style="font-size: 14px;">manndeshifoundation.org</div>
+  <div class="grantee-url">manndeshifoundation.org</div>
 </div>
 
 <div class="grantee-body">
@@ -333,7 +336,7 @@ Farmers have largely relied on traditional practices, even though agriculture is
 The project aims to strengthen the capacity and resilience of 1,500 farmers by improving soil health knowledge, introducing climate-smart agricultural practices, and increasing access to emerging agricultural technologies. Through soil testing services, advanced courses on horticulture farming and knowledge sessions on agri-tech, artificial intelligence in agriculture, climate literacy, and scientific farming methods, the project will equip farmers with the tools and information needed to make data-driven decisions.
 </div>
 
-**EXPECTED IMPACT**
+<div class="impact-heading">Expected Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
   <div class="impact-box"><h4>1500</h4><p>women farmers Total beneficiary count</p></div>
   <div class="impact-box"><h4>1200</h4><p>To be trained in scientific agricultural, climate literacy and AI</p></div>
@@ -348,7 +351,7 @@ The project aims to strengthen the capacity and resilience of 1,500 farmers by i
 
 <div class="grantee-header">
   <div class="grantee-meta">Mahad Taluka in Raigad district, Maharashtra | Tribal & marginalized communities | 2026 – 2027</div>
-  <div style="font-size: 14px;">gipe.ac.in</div>
+  <div class="grantee-url">gipe.ac.in</div>
 </div>
 
 <div class="grantee-body">
@@ -361,7 +364,7 @@ Mahad Taluka in Raigad district faces four compounding challenges:
 The Shashwat Vikas Kendra will serve as a localised hub addressing these challenges across three pillars: Natural Resource Management, Livelihood Security and Village-level Governance
 </div>
 
-**EXPECTED IMPACT**
+<div class="impact-heading">Expected Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
   <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Livelihoods</h3><p style="font-size:12px;">Reduced migration; alternate livelihoods</p></div>
   <div class="info-box" style="padding: 10px;"><h3 style="font-size:14px;">Environment</h3><p style="font-size:12px;">Legal protection of bio-resources and traditional knowledge</p></div>
@@ -385,7 +388,7 @@ The Shashwat Vikas Kendra will serve as a localised hub addressing these challen
 
 <div class="grantee-header">
   <div class="grantee-meta">M/E Ward, Mumbai, Maharashtra | Residents | 2026 – 2027</div>
-  <div style="font-size: 14px;">ssei.care/</div>
+  <div class="grantee-url">ssei.care/</div>
 </div>
 
 <div class="grantee-body">
@@ -396,7 +399,7 @@ The program takes a pocket-based approach, bringing awareness, community engagem
 The goal is to screen and treat preventable causes of blindness — cataract, uncorrected refractive error, glaucoma, and diabetic retinopathy, while building a sustainable model through links to existing government schemes and strengthening the community's long-term access to and habits around eye care.
 </div>
 
-**EXPECTED IMPACT**
+<div class="impact-heading">Expected Impact</div>
 <div class="grid-5" style="margin-top: 10px;">
   <div class="info-box" style="padding: 10px;"><h3 style="font-size:16px;">45,000+</h3><p style="font-size:12px;">Residents to receive free eye screening</p></div>
   <div class="info-box" style="padding: 10px;"><h3 style="font-size:16px;">25%</h3><p style="font-size:12px;">Of screenings expected to require evaluation for vision disorders</p></div>
