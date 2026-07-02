@@ -85,6 +85,7 @@ style: |
 ---
 
 <!-- _class: title-slide -->
+![bg right:45%](images/title_collage.jpg)
 
 ![w:150](images/logo.png)
 # RAFT
