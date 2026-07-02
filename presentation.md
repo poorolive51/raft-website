@@ -46,8 +46,8 @@ style: |
     background-color: var(--color-primary); color: white; justify-content: center; text-align: left; padding-left: 60px;
     background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='100%25' viewBox='0 0 800 600' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='100' cy='100' r='300' fill='%2300ADEF' fill-opacity='0.15' filter='blur(40px)'/%3E%3Ccircle cx='700' cy='500' r='250' fill='%23ffffff' fill-opacity='0.1' filter='blur(50px)'/%3E%3C/svg%3E");
   }
-  .divider-slide h1 { color: white; font-size: 50px; border-bottom: none; margin-bottom: 0; }
-  .divider-slide p { color: var(--color-secondary); font-size: 24px; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; }
+  .divider-slide h1 { color: white; font-size: 64px; border-bottom: none; margin-bottom: 0; line-height: 1.1; }
+  .divider-slide p { color: var(--color-secondary); font-size: 32px; font-family: 'Outfit', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 15px; }
   
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
