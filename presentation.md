@@ -59,6 +59,10 @@ style: |
   .info-box h3 { font-size: 22px; margin-top: 0; margin-bottom: 5px; }
   .info-box p { font-size: 16px; color: var(--color-text-dark); margin: 0; line-height: 1.5; }
   .info-box ul { font-size: 16px; color: var(--color-text-dark); margin: 0; padding-left: 20px; line-height: 1.5; }
+
+  .info-box-large { background: var(--color-bg-light); padding: 20px; border-radius: 8px; border-left: 4px solid var(--color-secondary); }
+  .info-box-large h3 { font-size: 26px; margin-top: 0; margin-bottom: 8px; }
+  .info-box-large p { font-size: 20px; color: var(--color-text-dark); margin: 0; line-height: 1.5; }
   
   .team-member { margin-bottom: 15px; }
   .team-member h3 { margin-bottom: 2px; font-size: 20px; }
@@ -94,18 +98,18 @@ www.raft.org.in | contact@raft.org.in | linkedin.com/company/rao-family-trust
 
 ## ABOUT US
 
-<p style="font-size: 16px;">The Rao Family Trust (RAFT) offers grants to nonprofits with a rigorous, evidence-based approach focused on measurable, sustainable results.</p>
+The Rao Family Trust (RAFT) offers grants to nonprofits with a rigorous, evidence-based approach focused on measurable, sustainable results.
 
-<p style="font-size: 16px;">As a private trust, RAFT channels its resources in a structured, transparent, and purpose-driven manner to ensure that its philanthropic vision continues to inspire meaningful change for generations.</p>
+As a private trust, RAFT channels its resources in a structured, transparent, and purpose-driven manner to ensure that its philanthropic vision continues to inspire meaningful change for generations.
 
-<p style="font-size: 16px;"><em>We are based in Pune, Maharashtra.</em></p>
+*We are based in Pune, Maharashtra.*
 
 <div class="grid-2" style="margin-top: 30px;">
-  <div class="info-box">
+  <div class="info-box-large">
     <h3>Vision</h3>
     <p>A compassionate, equitable, and sustainable world where every individual and ecosystem has the opportunity to thrive.</p>
   </div>
-  <div class="info-box">
+  <div class="info-box-large">
     <h3>Mission</h3>
     <p>Creating enduring social and ecological impact through strategic, transparent, and intergenerational philanthropy.</p>
   </div>
