@@ -64,9 +64,9 @@ style: |
   .info-box-large h3 { font-size: 26px; margin-top: 0; margin-bottom: 8px; }
   .info-box-large p { font-size: 20px; color: var(--color-text-dark); margin: 0; line-height: 1.5; }
   
-  .team-member { background: var(--color-bg-light); padding: 15px; border-radius: 8px; border-left: 3px solid var(--color-secondary); margin-bottom: 15px; }
+  .team-member { margin-bottom: 15px; }
   .team-member h3 { font-size: 22px; margin-top: 0; margin-bottom: 2px; }
-  .team-role { color: var(--color-secondary); font-weight: 500; font-size: 14px; margin-bottom: 6px; font-style: italic; }
+  .team-role { color: var(--color-secondary); font-weight: 500; font-size: 16px; margin-bottom: 6px; font-style: italic; }
   .team-desc { font-size: 14px; color: var(--color-text-dark); line-height: 1.5; }
 
   .grantee-header { background: var(--color-bg-light); padding: 12px 15px; border-radius: 8px; margin-bottom: 15px; }
@@ -85,8 +85,10 @@ style: |
 ---
 
 <!-- _class: title-slide -->
+![bg opacity:.25 blur:3px](images/home_banner_children.jpg)
 
-![w:150](images/logo.png)
+<img src="images/logo.png" style="width: 150px; clip-path: inset(2px); mix-blend-mode: multiply;" />
+
 # RAFT
 ### Rao Family Trust
 
