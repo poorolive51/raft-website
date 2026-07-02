@@ -199,9 +199,10 @@ Through our grants, we support organisations to respond to community needs and s
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45% fit](images/grantee_aatmaja.jpg)
+![bg right:45%](images/grantee_aatmaja.jpg)
 
 <p>Our Current Projects in</p>
+
 # EDUCATION
 
 ---
@@ -254,9 +255,10 @@ The Hummingbird School, under Ayang Trust, operates at the intersection of educa
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45% fit](images/grantee_sahyadri.jpg)
+![bg right:45%](images/grantee_sahyadri.jpg)
 
 <p>Our Current Projects in</p>
+
 # BIODIVERSITY &<br> CONSERVATION
 
 ---
@@ -310,9 +312,10 @@ Catapults to Cameras — a critically acclaimed documentary by wildlife filmmake
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45% fit](images/home_banner_girls.jpg)
+![bg right:45%](images/home_banner_girls.jpg)
 
 <p>Our Current Projects in</p>
+
 # LIVELIHOODS
 
 ---
@@ -370,9 +373,10 @@ The Shashwat Vikas Kendra will serve as a localised hub addressing these challen
 ---
 
 <!-- _class: divider-slide -->
-![bg right:45% fit](images/home_banner_venture.jpg)
+![bg right:45%](images/home_banner_venture.jpg)
 
 <p>Our Current Projects in</p>
+
 # TECHNOLOGY
 
 ---
