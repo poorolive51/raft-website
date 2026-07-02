@@ -85,10 +85,8 @@ style: |
 ---
 
 <!-- _class: title-slide -->
-![bg opacity:.25 blur:3px](images/home_banner_children.jpg)
 
-<img src="images/logo.png" style="width: 150px; clip-path: inset(2px); mix-blend-mode: multiply;" />
-
+![w:150](images/logo.png)
 # RAFT
 ### Rao Family Trust
 
