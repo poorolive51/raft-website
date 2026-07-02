@@ -198,10 +198,7 @@ Through our grants, we support organisations to respond to community needs and s
   </div>
 </div>
 
-<p style="text-align: center; margin-top: 80px; font-weight: 600; color: var(--color-primary); font-size: 16px; display: flex; align-items: center; justify-content: center;">
-  <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 8px;">
-    <path d="M7 0C3.134 0 0 3.134 0 7C0 12.25 7 18 7 18C7 18 14 12.25 14 7C14 3.134 10.866 0 7 0ZM7 9.5C5.619 9.5 4.5 8.381 4.5 7C4.5 5.619 5.619 4.5 7 4.5C8.381 4.5 9.5 5.619 9.5 7C9.5 8.381 8.381 9.5 7 9.5Z" fill="currentColor"/>
-  </svg>
+<p style="text-align: center; margin-top: 80px; font-weight: 600; color: var(--color-primary); font-size: 16px;">
   Geographic Focus: Primarily — Maharashtra, India
 </p>
 
