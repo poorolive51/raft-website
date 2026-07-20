@@ -25,14 +25,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // 2. Active Page Highlighting based on path
-  const currentPath = window.location.pathname;
-  const pageName = currentPath.substring(currentPath.lastIndexOf('/') + 1);
+  const currentPath = window.location.pathname.replace(/\/$/, '');
+  const pageName = currentPath.substring(currentPath.lastIndexOf('/') + 1).replace('.html', '');
   const links = document.querySelectorAll('.nav-link');
   
   let matchFound = false;
   links.forEach(link => {
     const href = link.getAttribute('href');
-    if (pageName === href || (pageName === '' && href === 'index.html')) {
+    const hrefName = href.substring(href.lastIndexOf('/') + 1).replace('.html', '');
+    
+    if (pageName === hrefName || (pageName === '' && (hrefName === 'index' || hrefName === ''))) {
       link.classList.add('active');
       matchFound = true;
     } else {
@@ -40,9 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Fallback to highlight Home if no exact match (e.g., bare root '/')
+  // Fallback to highlight Home if no exact match
   if (!matchFound && links.length > 0) {
-    const homeLink = Array.from(links).find(l => l.getAttribute('href') === 'index.html');
+    const homeLink = Array.from(links).find(l => l.getAttribute('href').includes('index'));
     if (homeLink) homeLink.classList.add('active');
   }
 
