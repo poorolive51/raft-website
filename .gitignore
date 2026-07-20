@@ -1,0 +1,17 @@
+.DS_Store
+test.jpg
+team.jpg
+team_*.jpg
+*.pdf
+*.zip
+Project Photos/
+Project_Photos/
+*.py
+images/grantee_ssei_orig.jpg
+images/grantee_*_orig.jpg
+wrangler.jsonc
+.wrangler/
+Project Photos*
+*.pdf
+*.pptx
+old_*

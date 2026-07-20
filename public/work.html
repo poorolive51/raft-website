@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Our Work | Rao Family Trust (RAFT)</title>
+  <meta name="description" content="Explore the philanthropic focus areas, trusted grantees, and funded projects of the Rao Family Trust (RAFT).">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.raft.org.in/work.html">
+  <meta property="og:title" content="Our Work | Rao Family Trust">
+  <meta property="og:description" content="Explore the philanthropic focus areas, trusted grantees, and funded projects of the Rao Family Trust (RAFT).">
+  <meta property="og:image" content="https://www.raft.org.in/images/vision_mission_banner.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.raft.org.in/work.html">
+  <meta property="twitter:title" content="Our Work | Rao Family Trust">
+  <meta property="twitter:description" content="Explore the philanthropic focus areas, trusted grantees, and funded projects of the Rao Family Trust (RAFT).">
+  <meta property="twitter:image" content="https://www.raft.org.in/images/vision_mission_banner.jpg">
+
+  <link rel="icon" type="image/png" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2312352F'><path d='M2 17h20v2H2zm2-4h16v2H4zm2-4h12v2H6zm2-4h8v2H8zm2-4h4v2h-4z'/></svg>">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .focus-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 2.5rem;
+      margin-bottom: 6rem;
+    }
+
+    .pillar-section { margin-bottom: 4rem; }
+
+    .pillar-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.25rem 2rem;
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+      color: var(--color-white);
+      border-radius: var(--border-radius-lg);
+      margin-bottom: 2.5rem;
+      box-shadow: 0 4px 15px rgba(45, 49, 146, 0.2);
+    }
+
+    .pillar-header .pillar-icon { width: 36px; height: 36px; flex-shrink: 0; fill: var(--color-secondary); }
+    .pillar-header h3 { color: var(--color-white); font-size: 1.35rem; font-weight: 600; margin: 0; }
+    .pillar-header .pillar-count { margin-left: auto; font-size: 0.85rem; color: rgba(255,255,255,0.7); font-weight: 400; white-space: nowrap; }
+
+    .grantee-card-v2 {
+      background: var(--color-bg-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--border-radius-lg);
+      overflow: hidden;
+      box-shadow: 0 4px 20px var(--color-shadow);
+      margin-bottom: 2.5rem;
+      transition: var(--transition-smooth);
+    }
+    .grantee-card-v2:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(45, 49, 146, 0.1); border-color: rgba(45, 49, 146, 0.12); }
+    .grantee-card-v2:last-child { margin-bottom: 0; }
+
+    .grantee-header-v2 {
+      display: flex; align-items: stretch; gap: 0;
+      padding: 0;
+      border-bottom: 1px solid var(--color-border);
+      background: linear-gradient(180deg, rgba(45, 49, 146, 0.02) 0%, transparent 100%);
+    }
+    .grantee-header-v2 .grantee-img { width: 300px; height: auto; border-radius: 0; object-fit: cover; flex-shrink: 0; border-right: 1px solid var(--color-border); border-top-left-radius: var(--border-radius-lg); }
+    .grantee-header-v2 .grantee-info { padding: 2.5rem; display: flex; flex-direction: column; justify-content: center; }
+    .grantee-header-v2 .grantee-info h3 { font-size: 1.5rem; margin-bottom: 0.25rem; color: var(--color-primary); }
+    .grantee-header-v2 .grantee-info .grantee-url { font-size: 0.85rem; color: var(--color-secondary); }
+    .grantee-header-v2 .grantee-info .grantee-url a { color: var(--color-secondary); text-decoration: none; transition: var(--transition-fast); }
+    .grantee-header-v2 .grantee-info .grantee-url a:hover { text-decoration: underline; }
+
+    .project-card {
+      padding: 2rem 2.5rem;
+      border-bottom: 1px solid var(--color-border);
+      position: relative;
+    }
+    .project-card:last-child { border-bottom: none; }
+    .project-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--color-secondary); border-radius: 0 2px 2px 0; }
+
+    .project-card .project-label {
+      display: inline-block; font-size: 0.7rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 1.5px; color: var(--color-secondary-dark);
+      background: rgba(0, 173, 239, 0.08); padding: 0.25rem 0.75rem; border-radius: 4px; margin-bottom: 0.75rem;
+    }
+    .project-card h4 { font-size: 1.2rem; font-weight: 600; color: var(--color-primary); margin-bottom: 0.5rem; }
+    .project-card .project-meta { font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 1rem; }
+    .project-card .project-desc { font-size: 1rem; color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.25rem; }
+
+    .project-card .impact-row {
+      display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 1rem;
+      padding-top: 1rem; border-top: 1px dashed rgba(45, 49, 146, 0.08);
+    }
+    .project-card .impact-stat { text-align: center; min-width: 80px; }
+    .project-card .impact-stat .stat-value { font-size: 1.4rem; font-weight: 700; color: var(--color-primary); font-family: var(--font-heading); }
+    .project-card .impact-stat .stat-label { font-size: 0.78rem; color: var(--color-text-muted); line-height: 1.3; margin-top: 0.15rem; }
+
+    .impact-label-tag { display: inline-block; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--color-primary); margin-bottom: 0.5rem; }
+
+    @media (max-width: 768px) {
+      .grantee-header-v2 { flex-direction: column; text-align: center; padding: 1.5rem; }
+      .project-card { padding: 1.5rem; }
+      .pillar-header { flex-direction: column; text-align: center; gap: 0.5rem; }
+      .pillar-header .pillar-count { margin-left: 0; }
+    }
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Rao Family Trust Logo" class="logo-img">
+        <span>Rao Family Trust</span>
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="work.html" class="nav-link">Our Work</a></li>
+        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Work Page Intro -->
+  <section class="section" style="padding-top: 5rem;">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-subtitle">What We Fund</span>
+        <h1>Fields of Work</h1>
+        <p>At RAFT, we believe that meaningful change begins with the courage to imagine a different future. We support ideas that look at problems differently, trust communities as drivers of progress, and use knowledge to open new pathways for impact.</p>
+      </div>
+
+
+
+      <!-- Grid of 5 Focus Areas -->
+      <div class="focus-grid reveal">
+        <a href="#education" class="card" style="text-decoration: none; color: inherit;">
+          <div class="card-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.49 12.03L12 15.58l6.51-3.55c.49-.27.49-.97 0-1.24L12 7.24 5.49 10.79c-.49.27-.49.97 0 1.24z"/></svg></div>
+          <h3>1. Education</h3>
+          <p>Enable professional education and quality learning for girls ensuring economic independence, transforming them into future leaders, and improving opportunities in remote communities.</p>
+        </a>
+        <a href="#biodiversity" class="card" style="text-decoration: none; color: inherit;">
+          <div class="card-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg></div>
+          <h3>2. Biodiversity & Conservation</h3>
+          <p>Protect biodiversity, wildlife habitats, and critical ecosystems. Support community-led conservation through science-based solutions.</p>
+        </a>
+        <a href="#livelihoods" class="card" style="text-decoration: none; color: inherit;">
+          <div class="card-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg></div>
+          <h3>3. Livelihoods</h3>
+          <p>Drive women's economic empowerment. Build market-relevant skills leading to meaningful careers, higher incomes, and entrepreneurship.</p>
+        </a>
+        <a href="#tech" class="card" style="text-decoration: none; color: inherit;">
+          <div class="card-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/></svg></div>
+          <h3>4. Tech for Good</h3>
+          <p>Foster entrepreneurship and innovation to address pressing social challenges. Accelerate the diffusion of technology and AI to underserved communities. Support scalable startup ecosystems.</p>
+        </a>
+        <a href="#disability" class="card" style="text-decoration: none; color: inherit;">
+          <div class="card-icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm-1 5h2l1 4 3 1.5-1 1.7-2.5-1.2L13 17l2 2.5-1.5 1-2-2.8-2 2.8-1.5-1 2-2.5-.5-4.5L7.5 13.7l-1-1.7 3-1.5 1.5-3.5z"/></svg></div>
+          <h3>5. Disability Inclusion</h3>
+          <p>Expand access to education, employment, and services. Enable skills, livelihoods, and independence while promoting dignity, inclusion, and participation.</p>
+        </a>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════ -->
+      <!-- SECTION: OUR GRANTEES & PROJECTS               -->
+      <!-- ═══════════════════════════════════════════════ -->
+      <div class="section-header reveal" style="margin-top: 4rem;">
+        <h2>Our Grantees & Projects</h2>
+        <p>Through trust-based grantmaking, flexible funding, and sustained collaboration, we back organisations that turn vision into lasting impact. Each grantee runs one or more projects funded by RAFT.</p>
+      </div>
+
+      <!-- PILLAR: EDUCATION -->
+      <div id="education" class="pillar-section reveal">
+        <div class="pillar-header">
+          <svg class="pillar-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5.49 12.03L12 15.58l6.51-3.55c.49-.27.49-.97 0-1.24L12 7.24 5.49 10.79c-.49.27-.49.97 0 1.24z"/></svg>
+          <h3>Education</h3>
+        </div>
+
+        <!-- Grantee: Aatmaja Foundation -->
+        <div class="grantee-card-v2">
+          <div class="grantee-header-v2">
+            <img src="images/grantee_aatmaja_new.jpg" alt="Aatmaja Foundation" class="grantee-img">
+            <div class="grantee-info">
+              <h3>Aatmaja Foundation</h3>
+              <div class="grantee-title-meta">Pune | Girls from socioeconomically disadvantaged backgrounds</div>
+              <div class="grantee-url"><a href="https://aatmaja.org" target="_blank" rel="noopener">aatmaja.org</a></div>
+              <p class="grantee-description" style="margin-top: 1rem; font-size: 0.95rem; color: var(--color-text); line-height: 1.6;">Aatmaja Foundation, a Pune-based non-profit registered under the Bombay Public Trust Act (Reg. No. E-7109), empowers underprivileged girls through education, mentoring, and career guidance. Founded in 2015 with just 20 girls, it now supports over 400 beneficiaries and has positively impacted more than 500 girls across Maharashtra. More than a scholarship program, Aatmaja is a nurturing ecosystem committed to shaping confident, independent, and skilled young women from disadvantaged communities.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-label">Project</div>
+            <h4>Enabling Our Daughters</h4>
+            <div class="project-meta">Pune | Girls from socioeconomically disadvantaged backgrounds | Grant: 2015 – Ongoing</div>
+            <div class="project-desc">
+              Through 4 strategic programs, Aatmaja Foundation builds confidence, life skills and professional capabilities to create empowered and self-reliant women.
+              <strong>Udaan Program:</strong> Long-term educational support guiding girls through scholarships, mentorship &amp; skill-building to become independent professionals.
+              <strong>Aasha Program:</strong> Equips girls with job-ready vocational skills across healthcare, technology, hospitality &amp; wellness for faster employment.
+              <strong>Girls in STEM:</strong> Builds girls' confidence and interest in STEM through hands-on workshops, expert talks, mentoring &amp; industry exposure.
+              <strong>Multi Skill Foundation Course (MSFC):</strong> Practical vocational training across engineering, electrical, plumbing &amp; agriculture — building technical skills &amp; career readiness.
+            </div>
+            <div class="impact-label-tag">Impact Snapshot</div>
+            <div class="impact-row">
+              <div class="impact-stat"><div class="stat-value">500+</div><div class="stat-label">Girls supported</div></div>
+              <div class="impact-stat"><div class="stat-value">100+</div><div class="stat-label">From rural Maharashtra</div></div>
+              <div class="impact-stat"><div class="stat-value">120+</div><div class="stat-label">Employed / entrepreneurs</div></div>
+              <div class="impact-stat"><div class="stat-value">98%</div><div class="stat-label">STEM improvement</div></div>
+              <div class="impact-stat"><div class="stat-value">200+</div><div class="stat-label">Trained under MSFC</div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grantee: Ayang Trust -->
+        <div class="grantee-card-v2">
+          <div class="grantee-header-v2">
+            <img src="images/grantee_hummingbird_new2.jpg" alt="Ayang Trust – The Hummingbird School" class="grantee-img">
+            <div class="grantee-info">
+              <h3>Ayang Trust</h3>
+              <div class="grantee-title-meta">Majuli, Assam | Children from Mising Tribe, Assam</div>
+              <div class="grantee-url"><a href="https://thehummingbirdschool.in" target="_blank" rel="noopener">thehummingbirdschool.in</a></div>
+              <p class="grantee-description" style="margin-top: 1rem; font-size: 0.95rem; color: var(--color-text); line-height: 1.6;">The Hummingbird School operationalizes holistic education for underserved rural, tribal, and remote children aligned with India’s National Education Policy 2020. Beyond academics, it nurtures social, physical, and emotional growth. Educators nationwide visit to train, engage, and take practices back to their communities. Over the years, the school has hosted 500+ educators from multiple organizations, each impacting at least 25 learners—an estimated 12,500 children. Insights also inform Ayang Trust’s education programs across Northeast India, multiplying quality and reach for all.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-label">Project</div>
+            <h4>Creating First Generation Learners — The Hummingbird School</h4>
+            <div class="project-meta">Majuli, Assam | Children from Mising Tribe | Grant: 2025 – 2029</div>
+            <div class="project-desc">
+              <p style="margin-bottom: 0.75rem;">The Hummingbird School, under Ayang Trust, operates at the intersection of education and resilience in the flood-affected communities of Majuli, which continue to grapple with poor connectivity, fragile infrastructure, and deep-rooted socio-economic challenges. The Hummingbird School has been committed to ensuring access to quality education for these children.</p>
+              <p>The pedagogy and the curriculum deviate from conventional learning methods, emphasizing experiential learning, inquiry-driven and context-relevant learning. This has allowed the children to connect their education with their lived realities while developing their curiosity, creativity and critical thinking.</p>
+            </div>
+            <div class="impact-label-tag">Impact</div>
+            <div class="impact-row">
+              <div class="impact-stat"><div class="stat-value">37</div><div class="stat-label">Students supported</div></div>
+              <div class="impact-stat"><div class="stat-value">1st Gen</div><div class="stat-label">Learners from Mising tribe</div></div>
+              <div class="impact-stat"><div class="stat-value">4+</div><div class="stat-label">Years of sustained support</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PILLAR: BIODIVERSITY & CONSERVATION -->
+      <div id="biodiversity" class="pillar-section reveal">
+        <div class="pillar-header">
+          <svg class="pillar-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          <h3>Biodiversity &amp; Conservation</h3>
+        </div>
+
+        <!-- Grantee: Sahyadri Sankalp Society -->
+        <div class="grantee-card-v2">
+          <div class="grantee-header-v2">
+            <img src="images/grantee_sahyadri_new2.jpg" alt="Sahyadri Sankalp Society" class="grantee-img">
+            <div class="grantee-info">
+              <h3>Sahyadri Sankalp Society</h3>
+              <div class="grantee-title-meta">Ratnagiri | Malabar Pied Hornbill, Great Hornbill, Malabar Grey Hornbill</div>
+              <div class="grantee-url"><a href="https://sahyadrisankalpsociety.org" target="_blank" rel="noopener">sahyadrisankalpsociety.org</a></div>
+              <p class="grantee-description" style="margin-top: 1rem; font-size: 0.95rem; color: var(--color-text); line-height: 1.6;">Sahyadri Sankalp Society is a registered non-profit organisation under the Societies Registration Act, 1860, and the Public Trust Act, 1950, working to protect the fragile ecosystems of the Sahyadri region. Founded by ecologists and community leaders, the Society conserves the Western Ghats, a UNESCO World Heritage Site. Through conservation, sustainable development, and community empowerment, it partners with communities, youth, women, and farmers to restore habitats, promote eco-friendly practices, and support sustainable livelihoods for a healthier future.</p>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-label">Project</div>
+            <h4>Guardians of the Giants</h4>
+            <div class="project-meta">Ratnagiri | Malabar Pied Hornbill, Great Hornbill, Malabar Grey Hornbill | Grant: 2025 – 2028</div>
+            <div class="project-desc">
+              The Western Ghats is home to three iconic Hornbill species. These birds are critical seed dispersers, shaping forest regeneration and structure. However, their survival is threatened by loss of nesting and fruiting trees, forest degradation and fragmentation and lack of public awareness. The project focuses on a landscape-level conservation approach emphasizing nest protection, habitat restoration and community involvement.
+            </div>
+            <div class="impact-label-tag">Impact</div>
+            <div class="impact-row">
+              <div class="impact-stat"><div class="stat-value">102</div><div class="stat-label">Nest sites identified</div></div>
+              <div class="impact-stat"><div class="stat-value">61</div><div class="stat-label">Active nests documented</div></div>
+              <div class="impact-stat"><div class="stat-value">100+</div><div class="stat-label">Monitored by community</div></div>
+              <div class="impact-stat"><div class="stat-value">5,500+</div><div class="stat-label">Seeds collected</div></div>
+              <div class="impact-stat"><div class="stat-value">4,000+</div><div class="stat-label">Seeds sown in nursery</div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grantee: HEAL -->
+        <div class="grantee-card-v2">
+          <div class="grantee-header-v2">
+            <img src="images/grantee_heal_new.jpg" alt="Human &amp; Environment Alliance League" class="grantee-img">
+            <div class="grantee-info">
+              <h3>Human &amp; Environment Alliance League (HEAL)</h3>
+              <div class="grantee-url"><a href="https://healearth.in" target="_blank" rel="noopener">healearth.in</a></div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-label">Project</div>
+            <h4>Catapults to Cameras</h4>
+            <div class="project-meta">Jhargram, West Bengal | Boys from Hunting Communities &amp; Wildlife | Grant: 2026 – 2027</div>
+            <div class="project-desc">
+              <p style="margin-bottom: 0.75rem;">In Southern West Bengal, over 40 mass hunting festivals are documented annually across seven districts — drawing up to 20,000 armed participants and killing thousands of wild animals in a single day. These are not subsistence hunts. They are organised bloodsport.</p>
+              <p style="margin-bottom: 0.75rem;">In these villages, boys are handed catapults as young as age three. By adolescence, participation in mass hunts is a rite of masculinity and belonging. The solution starts with children. When boys in these communities are given cameras, mentorship, and recognition, their relationship with nature shifts fundamentally.</p>
+              <p>Catapults to Cameras — a critically acclaimed documentary by wildlife filmmaker Ashwika Kapur and HEAL's field team — followed five adolescent boys who voluntarily gave up their catapults and became wildlife enthusiasts and conservation ambassadors. The film earned international recognition, turning a grassroots experiment into a global conversation. This project scales that model.</p>
+            </div>
+            <div class="impact-label-tag">Expected Impact</div>
+            <div class="impact-row">
+              <div class="impact-stat"><div class="stat-value">1</div><div class="stat-label">Mobile Field Library across 12 villages</div></div>
+              <div class="impact-stat"><div class="stat-value">12</div><div class="stat-label">Children trained in photography &amp; wildlife</div></div>
+              <div class="impact-stat"><div class="stat-value">Kids'</div><div class="stat-label">Nature Clubs formed</div></div>
+              <div class="impact-stat"><div class="stat-value">12+</div><div class="stat-label">Workshops &amp; screenings</div></div>
+              <div class="impact-stat"><div class="stat-value">1</div><div class="stat-label">District-level exhibition</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PILLAR: LIVELIHOODS -->
+      <div id="livelihoods" class="pillar-section reveal">
+        <div class="pillar-header">
+          <svg class="pillar-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+          <h3>Livelihoods</h3>
+        </div>
+
+        <!-- Grantee: Manndeshi Foundation -->
+        <div class="grantee-card-v2">
+          <div class="grantee-header-v2">
+            <img src="images/grantee_manndeshi_new.jpg" alt="Manndeshi Foundation" class="grantee-img">
+            <div class="grantee-info">
+              <h3>Manndeshi Foundation</h3>
+              <div class="grantee-url"><a href="https://manndeshifoundation.org" target="_blank" rel="noopener">manndeshifoundation.org</a></div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-label">Project</div>
+            <h4>Climate Smart Agriculture</h4>
+            <div class="project-meta">Satara, Sangli, Solapur, Pune district, Maharashtra | Women farmers | Grant: 2026 – 2027</div>
+            <div class="project-desc">
+              <p style="margin-bottom: 0.75rem;">Farmers have largely relied on traditional practices, even though agriculture is a highly technical and scientific field. By focusing on soil, we intervene at the very beginning of the crop cycle, where the foundation of productivity is set.</p>
+              <p>The project aims to strengthen the capacity and resilience of 1,500 farmers by improving soil health knowledge, introducing climate-smart agricultural practices, and increasing access to emerging agricultural technologies. Through soil testing services, advanced courses on horticulture farming and knowledge sessions on agri-tech, artificial intelligence in agriculture, climate literacy, and scientific farming methods, the project will equip farmers with the tools and information needed to make data-driven decisions.</p>
+            </div>
+            <div class="impact-label-tag">Expected Impact</div>
+            <div class="impact-row">
+              <div class="impact-stat"><div class="stat-value">1,500</div><div class="stat-label">Women farmers</div></div>
+              <div class="impact-stat"><div class="stat-value">1,200</div><div class="stat-label">Trained in AI &amp; climate literacy</div></div>
+              <div class="impact-stat"><div class="stat-value">250</div><div class="stat-label">Provided with soil testing</div></div>
+              <div class="impact-stat"><div class="stat-value">50</div><div class="stat-label">Advanced horticulture training</div></div>
+              <div class="impact-stat"><div class="stat-value">6</div><div class="stat-label">Exposure visits</div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grantee: Gokhale Institute -->
+        <div class="grantee-card-v2">
+          <div class="grantee-header-v2">
+            <img src="images/grantee_gokhale.jpg" alt="Gokhale Institute of Politics &amp; Economics" class="grantee-img">
+            <div class="grantee-info">
+              <h3>Gokhale Institute of Politics &amp; Economics</h3>
+              <div class="grantee-url"><a href="https://gipe.ac.in" target="_blank" rel="noopener">gipe.ac.in</a></div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-label">Project</div>
+            <h4>ROOTS Shashwat Vikas Kendra</h4>
+            <div class="project-meta">Mahad Taluka, Raigad district, Maharashtra | Tribal &amp; marginalized communities | Grant: 2026 – 2027</div>
+            <div class="project-desc">
+              <p style="margin-bottom: 0.75rem;">Mahad Taluka in Raigad district faces four compounding challenges:</p>
+              <ol style="margin-bottom: 0.75rem; padding-left: 1.5rem;">
+                <li><strong>Socio-Economic Vulnerability:</strong> Small farmers and landless labourers remain largely excluded from the formal economy.</li>
+                <li><strong>Ecological Degradation:</strong> Biodiversity loss and erosion of traditional ecological knowledge.</li>
+                <li><strong>Climate &amp; Resource Stress:</strong> Growing water insecurity and soil degradation, worsened by poor waste management and inefficient agricultural practices.</li>
+                <li><strong>Institutional Gaps:</strong> Local Gram Panchayats lack the technical capacity to implement key mandates.</li>
+              </ol>
+              <p>The Shashwat Vikas Kendra will serve as a localised hub addressing these challenges across three pillars: Natural Resource Management, Livelihood Security and Village-level Governance.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- PILLAR: TECH FOR GOOD -->
+      <div id="tech" class="pillar-section reveal">
+        <div class="pillar-header">
+          <svg class="pillar-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/></svg>
+          <h3>Tech for Good</h3>
+        </div>
+
+        <!-- Grantee: Shantilal Shanghvi Eye Institute -->
+        <div class="grantee-card-v2">
+          <div class="grantee-header-v2">
+            <img src="images/grantee_ssei.jpg" alt="Shantilal Shanghvi Eye Institute" class="grantee-img">
+            <div class="grantee-info">
+              <h3>Shantilal Shanghvi Eye Institute</h3>
+              <div class="grantee-url"><a href="https://ssei.care" target="_blank" rel="noopener">ssei.care</a></div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-label">Project</div>
+            <h4>Prevention of Avoidable Blindness</h4>
+            <div class="project-meta">M/E Ward, Mumbai, Maharashtra | Residents | Grant: 2026 – 2027</div>
+            <div class="project-desc">
+              <p style="margin-bottom: 0.75rem;">Maharashtra's rate of blindness and visual impairment exceeds the national average. In Mumbai's M/E ward, one of the city's most densely populated slums, nearly 2% of residents are blind and 13% live with visual impairment, yet 66% of that blindness and 84% of that impairment is treatable.</p>
+              <p style="margin-bottom: 0.75rem;">The program takes a pocket-based approach, bringing awareness, community engagement and screening directly into neighborhoods, with at least six months of follow-up to build lasting eye-health habits. ʼSakhisʼ, women from the community are trained on two cutting-edge portable tools: Remidio's split lamp for a thorough anterior eye exam, and a handheld fundus camera that delivers high-quality retinal screening in under a minute.</p>
+              <p>The goal is to screen and treat preventable causes of blindness — cataract, uncorrected refractive error, glaucoma, and diabetic retinopathy, while building a sustainable model through links to existing government schemes and strengthening the community's long-term access to and habits around eye care.</p>
+            </div>
+            <div class="impact-label-tag">Expected Impact</div>
+            <div class="impact-row">
+              <div class="impact-stat"><div class="stat-value">45,000+</div><div class="stat-label">Free eye screenings</div></div>
+              <div class="impact-stat"><div class="stat-value">25%</div><div class="stat-label">Require vision evaluation</div></div>
+              <div class="impact-stat"><div class="stat-value">250</div><div class="stat-label">Surgeries for cataract &amp; glaucoma</div></div>
+              <div class="impact-stat"><div class="stat-value">1,000</div><div class="stat-label">Spectacles for refractive correction</div></div>
+              <div class="impact-stat"><div class="stat-value">DR</div><div class="stat-label">Screening before permanent vision loss</div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grantee: Venture Center (2 projects) -->
+        <div class="grantee-card-v2">
+          <div class="grantee-header-v2">
+            <img src="images/grantee_venture_new.jpg" alt="Venture Center" class="grantee-img">
+            <div class="grantee-info">
+              <h3>Venture Center</h3>
+              <div class="grantee-title-meta">Pune, Maharashtra | Incubated startups & ecosystem</div>
+              <div class="grantee-url"><a href="https://venturecenter.co.in" target="_blank" rel="noopener">venturecenter.co.in</a></div>
+              <p class="grantee-description" style="margin-top: 1rem; font-size: 0.95rem; color: var(--color-text); line-height: 1.6;">Venture Center was set up by the National Chemical Laboratory under CSIR as a non-profit incubator. It was incorporated as the “Entrepreneurship Development Center” and is an approved incubator of the National Science and Technology Entrepreneurship Development Board (DST-NSTEDB) and the Department of Biotechnology’s Biotechnology Industry Research Assistance Council (BIRAC).</p>
+            </div>
+          </div>
+
+          <!-- Project 1: CoE for Clean Energy & Green Hydrogen -->
+          <div class="project-card">
+            <div class="project-label">Project 1 of 2</div>
+            <h4>Center of Excellence for Clean Energy &amp; Green Hydrogen</h4>
+            <div class="project-meta">Pune, Maharashtra | Incubated startups &amp; ecosystem | Grant: 2025 – 2026</div>
+            <div class="project-desc">
+              <p style="margin-bottom: 0.75rem;">India's commitments to COP26 and UNFCCC include reducing GDP emissions intensity by 45% and achieving 50% non-fossil fuel energy capacity by 2030. To meet these goals, initiatives in Clean Energy (CE) and Green Hydrogen (GH2) are crucial for energy independence, reducing reliance on imports, and creating socio-economic benefits.</p>
+              <p style="margin-bottom: 0.75rem;">The Center for Clean Energy (CoE) and Green Hydrogen will focus on:</p>
+              <ul style="margin-bottom: 0.75rem; padding-left: 1.5rem;">
+                <li>Energy generation and new fuels: solar, wind, biomass and green hydrogen</li>
+                <li>Energy storage: Batteries, supercapacitors and advanced technologies.</li>
+                <li>End-use sectors: Mobility, industrial power and urban energy needs.</li>
+              </ul>
+              <p>It will offer services and training programs to startups and stakeholders in the ecosystem. The project will support start-ups developing clean energy, sustainable mobility, environmental technologies, carbon management and circular economy solutions. The CoE is a significant step toward building a self-sufficient and innovative clean energy ecosystem in India.</p>
+            </div>
+            <div class="impact-label-tag">Expected Impact</div>
+            <div class="impact-row">
+              <div class="impact-stat"><div class="stat-value">60+</div><div class="stat-label">New startups incubated</div></div>
+              <div class="impact-stat"><div class="stat-value">1,000+</div><div class="stat-label">New jobs created</div></div>
+              <div class="impact-stat"><div class="stat-value">50+</div><div class="stat-label">Events, workshops &amp; hackathons</div></div>
+              <div class="impact-stat"><div class="stat-value">60+</div><div class="stat-label">Mentors &amp; domain experts</div></div>
+              <div class="impact-stat"><div class="stat-value">20+</div><div class="stat-label">Strategic partnerships</div></div>
+              <div class="impact-stat"><div class="stat-value">15+</div><div class="stat-label">Startups to raise funding</div></div>
+            </div>
+          </div>
+
+          <!-- Project 2: Solar Panel Installations -->
+          <div class="project-card">
+            <div class="project-label">Project 2 of 2</div>
+            <h4>Solar Panel Installations</h4>
+            <div class="project-meta">Pune, Maharashtra | Incubated startups | Grant: 2025 – 2026</div>
+            <div class="project-desc">
+              <p style="margin-bottom: 0.75rem;">Venture Centre has a goal of 100% renewal energy by 2030. Currently, ~20% is attained through renewable energy. To increase it to 50%, they need to install solar photovoltaic systems covering roughly 10,000 sq.ft of land space and producing 150 KWp of power.</p>
+              <p style="margin-bottom: 0.75rem;">Installing this solar panel system will replace 20-30% grid power usage, replacing conventional fossil fuels with renewable energy.</p>
+              <p>The annual savings generated through reduced electricity expenditure will be reinvested towards strengthening incubation programmes, startup support activities, and innovation infrastructure, thereby enhancing the long-term sustainability of the incubator.</p>
+            </div>
+            <div class="impact-label-tag">Expected Impact</div>
+            <div class="impact-row">
+              <div class="impact-stat"><div class="stat-value">45 kWp</div><div class="stat-label">Solar capacity installed</div></div>
+              <div class="impact-stat"><div class="stat-value">64,800</div><div class="stat-label">Units generated annually</div></div>
+              <div class="impact-stat"><div class="stat-value">&#x20B9;8.10L</div><div class="stat-label">Estimated annual savings</div></div>
+              <div class="impact-stat"><div class="stat-value">180/day</div><div class="stat-label">Average units generated</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <a href="index.html" class="logo" style="color: var(--color-white);">
+          <img src="images/logo_white.png" alt="Rao Family Trust Logo" class="logo-img">
+          <span style="color: var(--color-white);">Rao Family Trust</span>
+        </a>
+        <p>A purpose-driven private trust dedicated to creating lasting social and ecological impact across India.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="work.html">Our Work</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Connect</h4>
+        <div class="footer-social-links">
+          <a href="https://www.linkedin.com/company/rao-family-trust/" class="social-btn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Rao Family Trust (RAFT). All rights reserved.</span>
+      <span>Private Trust established in November 2025.</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

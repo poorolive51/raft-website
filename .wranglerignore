@@ -1,0 +1,10 @@
+.git
+.github
+Project Photos
+Project_Photos
+*.py
+*.md
+*.jsonc
+.wrangler
+images/grantee_ssei_orig.jpg
+node_modules

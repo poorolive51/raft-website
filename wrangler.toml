@@ -1,0 +1,8 @@
+name = "raft-website"
+compatibility_date = "2026-07-14"
+
+[assets]
+directory = "public"
+
+[observability]
+enabled = true
