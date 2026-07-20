@@ -471,13 +471,17 @@ header {
 }
 
 /* External Link Icon Indicator */
+svg.external-link-icon,
 .external-link-icon {
-  width: 14px;
-  height: 14px;
+  width: 14px !important;
+  height: 14px !important;
+  max-width: 14px !important;
+  max-height: 14px !important;
+  flex-shrink: 0 !important;
   display: inline-block;
   vertical-align: middle;
   margin-left: 4px;
-  opacity: 0.8;
+  opacity: 0.85;
   transition: var(--transition-fast);
 }
 
