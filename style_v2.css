@@ -182,7 +182,7 @@ header {
 }
 
 .logo-img {
-  height: 46px;
+  height: 48px;
   width: auto;
   object-fit: contain;
   transition: var(--transition-smooth);
