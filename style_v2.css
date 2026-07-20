@@ -64,12 +64,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3rem;
-  letter-spacing: -0.02em;
+  font-size: 3.25rem;
+  letter-spacing: -0.025em;
 }
 
 h2 {
   font-size: 2.25rem;
+  letter-spacing: -0.02em;
   margin-bottom: 1.5rem;
   position: relative;
   display: inline-block;
@@ -99,8 +100,9 @@ h3 {
 
 p {
   margin-bottom: 1.25rem;
-  color: var(--color-text-dark);
+  color: #334155;
   font-weight: 400;
+  line-height: 1.7;
 }
 
 a {
@@ -153,9 +155,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: rgba(250, 249, 246, 0.85); /* Alabaster Glass */
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(250, 249, 246, 0.88); /* Alabaster Glass */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--color-border);
   transition: var(--transition-smooth);
 }
@@ -277,8 +279,8 @@ header {
 /* Hero Section */
 .hero {
   padding: 6rem 2rem 5rem;
-  background: radial-gradient(circle at 80% 20%, rgba(197, 168, 128, 0.1) 0%, transparent 60%),
-              radial-gradient(circle at 10% 80%, rgba(18, 53, 47, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle at 80% 20%, rgba(0, 173, 239, 0.08) 0%, transparent 60%),
+              radial-gradient(circle at 10% 80%, rgba(45, 49, 146, 0.05) 0%, transparent 70%);
   position: relative;
   overflow: hidden;
 }
@@ -297,15 +299,18 @@ header {
 }
 
 .hero-tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-family: var(--font-heading);
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--color-secondary-dark);
-  background-color: rgba(197, 168, 128, 0.12);
-  padding: 0.4rem 1rem;
+  color: var(--color-primary);
+  background: linear-gradient(135deg, rgba(0, 173, 239, 0.12) 0%, rgba(45, 49, 146, 0.08) 100%);
+  border: 1px solid rgba(0, 173, 239, 0.25);
+  padding: 0.4rem 1.1rem;
   border-radius: 50px;
   margin-bottom: 1.5rem;
 }
@@ -366,9 +371,21 @@ header {
   color: var(--color-secondary-dark);
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-subtitle::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: var(--color-secondary);
+  border-radius: 50%;
 }
 
 /* Glassmorphism Cards */
