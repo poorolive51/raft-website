@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const href = link.getAttribute('href');
     const hrefName = href.substring(href.lastIndexOf('/') + 1).replace('.html', '');
     
-    if (pageName === hrefName || (pageName === '' && (hrefName === 'index' || hrefName === ''))) {
+    if (pageName === hrefName || (pageName === '' && (hrefName === 'index' || hrefName === '')) || (pageName.startsWith('blog') && hrefName === 'blog')) {
       link.classList.add('active');
       matchFound = true;
     } else {
