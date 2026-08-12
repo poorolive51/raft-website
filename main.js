@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         })
         .catch(() => {
-          showToast('Could not connect. Please email us at info@raft.org.in');
+          showToast('Could not connect. Please email us at contact@raft.org.in');
         })
         .finally(() => {
           submitBtn.innerHTML = originalText;
@@ -122,14 +122,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Fallback: open mailto with pre-filled data
         const mailBody = `Name: ${name}%0AEmail: ${email}%0A%0A${encodeURIComponent(message)}`;
         const mailSubject = encodeURIComponent(subject);
-        window.location.href = `mailto:info@raft.org.in?subject=${mailSubject}&body=${mailBody}`;
+        window.location.href = `mailto:contact@raft.org.in?subject=${mailSubject}&body=${mailBody}`;
         
         submitBtn.innerHTML = 'Opening email...';
         submitBtn.disabled = true;
         setTimeout(() => {
           submitBtn.innerHTML = originalText;
           submitBtn.disabled = false;
-          showToast('Your email client should open shortly. You can also write to info@raft.org.in directly.');
+          showToast('Your email client should open shortly. You can also write to contact@raft.org.in directly.');
         }, 2000);
       }
     });
